@@ -1,6 +1,9 @@
 # SODA-Dataset
 The SODA Dataset is a computer vision dataset containing aerial imagery of small objects captured at different altitudes.  The Small Objects from Different Altitude (SODA) Dataset contains 829 images and 6719 object annotations. The objects are annotated using polygons. 
 
+## Download Dataset
+The SODA dataset can be donwloaded from [here](https://drive.google.com/drive/folders/1Xd-7oHogMidzH5NA3_Ng1sU75_w66mBg?usp=sharing).
+
 ## Dataset Classes
 * Clear Plastic Bottles (clear_plastic_bottle)
 * Drink Cans (drink_can)
