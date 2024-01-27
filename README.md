@@ -1,5 +1,5 @@
 # SODA-Dataset
-The SODA Dataset is a computer vision dataset containing aerial imagery of small objects captured at different altitudes.  The Small Objects from Different Altitude (SODA) Dataset contains 829 images and 6719 object annotations.
+The SODA Dataset is a computer vision dataset containing aerial imagery of small objects captured at different altitudes.  The Small Objects from Different Altitude (SODA) Dataset contains 829 images and 6719 object annotations. The objects are annotated using polygons. 
 
 ## Dataset Classes
 * Clear Plastic Bottles (clear_plastic_bottle)
@@ -18,6 +18,10 @@ The SODA Dataset is a computer vision dataset containing aerial imagery of small
 * 25m: 30 images | 716 annotations
 * 30m: 30 images | 612 annotations
 
-Altitudes are all AGL (Above Ground Level). Aerial images were captured using a combination of DJI Mini 2 and a DJI Air 2 S drones. 
+Altitudes are all AGL (Above Ground Level). Aerial images were captured using a combination of DJI Mini 2 and a DJI Air 2S drones. 
 
 ## Dataset Accessability
+
+
+## News
+**January 27, 2024:** First upload of SODA dataset with 829 images and 6719 annotations. 
