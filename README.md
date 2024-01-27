@@ -13,7 +13,7 @@ The SODA dataset can be donwloaded from [here](https://drive.google.com/drive/fo
 * Recommended uage: Training a small object detector using images captured at different altitudes. 
 
 ## Access the SODA Dataset from Roboflow
-The SODA dataset is also hosted on Roboflow for public access. 
+The SODA dataset is also hosted on Roboflow for public access. The SODA Data respository on Roboflow can be accessed from [here](https://universe.roboflow.com/danielpisani/).
 
 ## Dataset Classes
 * Clear Plastic Bottles (clear_plastic_bottle)
