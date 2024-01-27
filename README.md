@@ -34,8 +34,5 @@ The SODA dataset is also hosted on Roboflow for public access.
 
 Altitudes are all AGL (Above Ground Level). Aerial images were captured using a combination of DJI Mini 2 and a DJI Air 2S drones. 
 
-## Dataset Accessability
-
-
 ## News
 **January 27, 2024:** First upload of SODA dataset with 829 images and 6719 annotations. 
