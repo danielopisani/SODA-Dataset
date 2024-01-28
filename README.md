@@ -4,7 +4,7 @@ The SODA Dataset is a computer vision dataset containing aerial imagery of small
 ![Test](/assets/images/soda_image_001.png)
 
 ## Download SODA Dataset
-The SODA dataset can be donwloaded from [here](https://drive.google.com/drive/folders/1Xd-7oHogMidzH5NA3_Ng1sU75_w66mBg?usp=sharing).
+The SODA dataset can be downloaded from [here](https://drive.google.com/drive/folders/1Xd-7oHogMidzH5NA3_Ng1sU75_w66mBg?usp=sharing).
 
 #### [SODA_Dataset_Split_Altitudes_COCO.zip](https://drive.google.com/file/d/1FDHPxeEkI9II6IQKppnsVVXPg_wa0pHP/view?usp=drive_link)
 * Description: The 829 images are grouped into their respective altitude directory.
@@ -14,12 +14,12 @@ The SODA dataset can be donwloaded from [here](https://drive.google.com/drive/fo
 
 #### [SODA_Dataset_COCO.zip](https://drive.google.com/file/d/1NBoaCBWChLasjTb1LVHwj-w_A_9jfG5F/view?usp=drive_link)
 * Description: The 829 images are merged into one directory.
-* Recommended uage: Training a small object detector using images captured at different altitudes.
+* Recommended usage: Training a small object detector using images captured at different altitudes.
 * Preprocessing: No image pre-processing steps were applied to the images.
 * Augmentation: No image augmentation steps were applied to the images. 
 
 ## Access the SODA Dataset from Roboflow
-The SODA dataset is also hosted on Roboflow for public access. The SODA Data respository on Roboflow can be accessed from [here](https://universe.roboflow.com/danielpisani/).
+The SODA dataset is also hosted on Roboflow for public access. The SODA Data repository on Roboflow can be accessed from [here](https://universe.roboflow.com/danielpisani/).
 
 ## Dataset Classes
 * Clear Plastic Bottles (clear_plastic_bottle)
