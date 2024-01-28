@@ -9,10 +9,14 @@ The SODA dataset can be donwloaded from [here](https://drive.google.com/drive/fo
 #### [SODA_Dataset_Split_Altitudes_COCO.zip](https://drive.google.com/file/d/1FDHPxeEkI9II6IQKppnsVVXPg_wa0pHP/view?usp=drive_link)
 * Description: The 829 images are grouped into their respective altitude directory.
 * Recommended usage: Test and validation using images captured from different altitudes.
+* Preprocessing: No image pre-processing steps were applied to the images.
+* Augmentation: No image augmentation steps were applied to the images. 
 
 #### [SODA_Dataset_COCO.zip](https://drive.google.com/file/d/1NBoaCBWChLasjTb1LVHwj-w_A_9jfG5F/view?usp=drive_link)
-* Descritpion: The 829 images are merged into one directory.
-* Recommended uage: Training a small object detector using images captured at different altitudes. 
+* Description: The 829 images are merged into one directory.
+* Recommended uage: Training a small object detector using images captured at different altitudes.
+* Preprocessing: No image pre-processing steps were applied to the images.
+* Augmentation: No image augmentation steps were applied to the images. 
 
 ## Access the SODA Dataset from Roboflow
 The SODA dataset is also hosted on Roboflow for public access. The SODA Data respository on Roboflow can be accessed from [here](https://universe.roboflow.com/danielpisani/).
@@ -35,6 +39,17 @@ The SODA dataset is also hosted on Roboflow for public access. The SODA Data res
 * 30m: 30 images | 612 annotations
 
 Altitudes are all AGL (Above Ground Level). Aerial images were captured using a combination of DJI Mini 2 and a DJI Air 2S drones. 
+
+## SODA YOLOv8 Model
+
+#### Image Preprocessing
+- Auto-Orient
+- Resize (640x40)
+- Tile (5x5)
+- Dropped 'unlabelled litter' class.
+
+#### Image Augmentation
+- No image augmentation steps applied for model training. 
 
 ## News
 **January 27, 2024:** First upload of SODA dataset with 829 images and 6719 annotations. 
